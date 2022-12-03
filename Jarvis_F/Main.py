@@ -1,4 +1,4 @@
-
+#Import all libires
 import speech_recognition as sr
 import pyaudio
 import pyttsx3
@@ -8,7 +8,7 @@ import datetime
 import webbrowser
 import subprocess
 import pywhatkit
-from pyfirmata import Arduino ,SERVO,util
+from pyfirmata import Arduino ,SERVO,util #This is for connecting arduino and python 
 from time import sleep
 import os
 import random 
@@ -16,7 +16,7 @@ import time
 import pvporcupine
 import struct
 
-#For Servo
+#For Servo    Add this code only if you need a robot near 
 port = 'COM3'
 pin=10 #Left
 pin2 = 9 #Head
@@ -54,6 +54,7 @@ def servo8(pin3,angle):
 
 rotateservo(pin,90)
 servo8(pin3,90)
+#From here all the codes are needed expect for the code of servo
 
 #Times and countdown
 def countdown(t):
