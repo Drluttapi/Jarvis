@@ -1,2 +1,3 @@
 # Jarvis
 Jarvis is an AI voice assistant robot 
+HE can do almost anythis you say and answers qustions etc...
