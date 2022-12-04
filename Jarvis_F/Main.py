@@ -89,7 +89,7 @@ def family():
 
 
 # Initializations(WolframAlpha).
-client = wolframalpha.Client("KYAU62-63QGP34EKH")
+client = wolframalpha.Client("#add your api key")
 
 # Speak Function...
 
@@ -455,7 +455,7 @@ def main():
     audio_stream = None 
     print("******* Jarvis is ready ********")
     try:
-        porcupine = pvporcupine.create(keywords=["jarvis"],access_key = "LqF2KmVs/OtKb6ZWN8iq1iRGzo6gE14Gcf4qKNBaYrPwEXN/jqurmA==")
+        porcupine = pvporcupine.create(keywords=["jarvis"],access_key = "#add your acces key")
         pa = pyaudio.PyAudio()
         audio_stream = pa.open(
                         rate = porcupine.sample_rate,
